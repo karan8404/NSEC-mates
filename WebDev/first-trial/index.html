@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Website</title>
+    <link rel="stylesheet" href="styling.css" />
+  </head>
+  <body>
+    <h1>
+      Hello guys<br />
+      My name is karan and I am learning WebDev
+    </h1>
+
+    <div class="cardContainer" id="contentCardsContainer">
+      <div class="contentCards" id="firstContentCard" onclick="clickEvent(id)">
+        <img
+          class="divImage"
+          id="firstDivImage"
+          src="images/bamboos.jpg"
+          alt="bamboos"
+        />
+
+        <p class="divText">Above are some Bamboos.</p>
+      </div>
+
+      <div class="contentCards" id="secondContentCard" onclick="clickEvent(id)">
+        <img
+          class="divImage"
+          id="secondDivImage"
+          src="images/flowers.jpg"
+          alt="flowers"
+        />
+
+        <p class="divText">Above are some flowers.</p>
+      </div>
+
+      <div class="contentCards" id="thirdContentCard" onclick="clickEvent(id)">
+        <img
+          class="divImage"
+          id="thirdDivImage"
+          src="images/bird.jpg"
+          alt="bird"
+        />
+
+        <p class="divText">Above is a bird.</p>
+      </div>
+
+      <div class="contentCards" id="fourthContentCard" onclick="clickEvent(id)">
+        <img class="divImage" src="images/ocean-waves.jpg" alt="ocean-image" />
+
+        <p class="divText">Above is an image of ocean waves.</p>
+      </div>
+    </div>
+
+    <script src="first.js"></script>
+  </body>
+</html>
